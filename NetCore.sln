@@ -3,9 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Metanit", "Metanit", "{E744DFCF-DCF3-432F-A815-972DA8B0DDA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Start_Metanit", "Metanin\Start_Metanit\Start_Metanit.csproj", "{47E03118-1FDF-486F-BB40-019E67DB6714}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47E03118-1FDF-486F-BB40-019E67DB6714}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47E03118-1FDF-486F-BB40-019E67DB6714}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47E03118-1FDF-486F-BB40-019E67DB6714}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47E03118-1FDF-486F-BB40-019E67DB6714}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{47E03118-1FDF-486F-BB40-019E67DB6714} = {E744DFCF-DCF3-432F-A815-972DA8B0DDA1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2C851ABB-2BA0-4A7D-ABC8-A1A10F789ECB}
